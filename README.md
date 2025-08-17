@@ -1,4 +1,4 @@
-# [CoinName] — AI-Launched Meme Coin on Solana (SPL)
+# Clean Otter — AI-Launched Meme Coin on Solana (SPL)
 
 This repository contains:
 - **/site** → the public website (static, GitHub Pages–ready)
@@ -6,7 +6,7 @@ This repository contains:
 - **/.github/workflows** → CI to auto-verify your mint daily
 - Transparency docs (**AUDIT.md**, **SECURITY.md**, **COMPLIANCE.md**)
 
-> Replace placeholders such as `[CoinName]`, `[TICKER]`, `MINT_PUBLIC_KEY`, `MOONSHOT_TOKEN_URL` throughout the repo.
+> Replace placeholders such as `Ottertok`, `[TICKER]`, `MINT_PUBLIC_KEY`, `MOONSHOT_TOKEN_URL` throughout the repo.
 > Or run the **inject** script to fill them automatically.
 
 ## Quick Start
