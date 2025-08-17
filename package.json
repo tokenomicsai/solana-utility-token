@@ -1,0 +1,21 @@
+{
+  "name": "solana-memecoin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify": "node --loader ts-node/esm scripts/verifyMint.ts",
+    "links": "node --loader ts-node/esm scripts/printLinks.ts",
+    "inject": "node --loader ts-node/esm scripts/inject.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.6",
+    "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
